@@ -1,10 +1,12 @@
+import config from "./config/index.js";
 const express = require("express");
 const app = express();
 require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
 require("./startup/prod")(app);
-require("dotenv").config();
+// require("dotenv").config();
+const port = config.port;
 
 // const port = process.env.PORT || 5000;
 
