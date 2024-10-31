@@ -9,7 +9,7 @@ const enrolmentsRouter = require("../routes/enrolments");
 
 module.exports = function (app) {
   app.use(express.json());
-  app.use("/welcome", welcome);
+  app.use("/", welcome);
   app.use("/api/users", usersRoute);
   app.use("/api/auth", authRoute);
   app.use("/api/categories", categoriesRoute);
