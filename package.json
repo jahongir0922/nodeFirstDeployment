@@ -9,7 +9,7 @@
     "build": "netlify deploy --prod"
   },
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "keywords": [],
   "author": "",
