@@ -26,9 +26,6 @@
     "lodash": "^4.17.21",
     "mongoose": "^8.4.4",
     "nodemon": "^3.1.7",
-    "prettier": "^3.2.5",
-    "netlify-cli": "",
-    "nelify-lambda": "",
-    "serverless-http": ""
+    "prettier": "^3.2.5"
   }
 }
